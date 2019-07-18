@@ -18,7 +18,7 @@ public class TextFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Declare and Init our layout and pass it into the view Object
-        View view = inflater.inflate(R.layout.text_fragment, false);
+        View view = inflater.inflate(R.layout.text_fragment, container, false);
 
         // Init our view using the layout view object from above
         display = view.findViewById(R.id.count_view);
