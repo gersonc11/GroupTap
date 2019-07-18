@@ -3,4 +3,26 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.TextFragment"
+        android:id="@+id/TextFragment">
+
+    </fragment>
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.ButtonFragment"
+        android:id="@+id/ButtonFragment">
+
+    </fragment>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
